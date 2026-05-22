@@ -60,8 +60,8 @@ def draw_bipartite_graph(title, edge_labels, node_labels_supply, node_labels_dem
 
 random.seed(1337)
 
-num_I = 23   
-num_J = 15   
+num_I = 5   
+num_J = 6   
 
 supply = [random.randint(5, 50) for _ in range(num_I)]
 demand = [random.randint(5, 50) for _ in range(num_J)]
